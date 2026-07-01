@@ -1,1 +1,12 @@
-# Student-Record-Management
+Project Title:Student-Record-Management(Mini project):
+------------------------------------------------------
+-->The project which I has done on the title Student Record Management was mainly focus on how to maintain the records in the academic organizations.
+-->It help to make the records efficiently,error free,and maintain the records digitally.
+-->It is user friendly because the user can easily understand it features and make their records.
+-->In this I have given Index based options, the user choose wisely according to thier needs.
+-->For Adding Data:I have used the concept single linked list (add_end concept) in Data structure.In that the user get student roll no,name,percentage.
+-->For Deleting Purpose also I has enabled various options.The options are directly deleting through roll no,By getting name and again ask roll no to verify the person to confirm,By also getting student percentage also I have made an option to user delete the student they want.
+-->I have give an user option to modify their student records through the same options I have mentioned above for the user convinence and to upgrade their records to their needs.
+-->Adding the record,Done deletion and modification all the work need to be save if we dont save all this work done was veinfull.so I give save funtion to save the entered records.
+-->For what we have entered we need to saw the entered records for that the save function I have defined my code .
+-->At last after entering the full records the user want to exit ,In that also I have gave option to user asking them whether they need to save and exit or without saving they to need to exist they choose according to their needs.
