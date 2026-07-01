@@ -9,7 +9,7 @@ int main()
                 char op;
                 Index_fn();
 		printf("Enter the choice : ");
-                scanf("%c",&op);
+                scanf(" %c",&op);
                 switch(op)
                 {
                         case 'A':
