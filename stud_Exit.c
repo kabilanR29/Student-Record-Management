@@ -13,12 +13,13 @@ void stud_Exit()
                 case 'S':
                 case 's':stud_save();
                          printf("Data Saved successfully and Exit\n");
-                         break;
+                         exit(0);
 
                 case 'E':
                 case 'e':
                          printf("Exit Without Saving Data\n");
-                         break;
+                         exit(0);
                 default:printf("INVALID OPTION!!\n");
+                exit(0);
         }
 }
