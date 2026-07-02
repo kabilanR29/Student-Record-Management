@@ -26,7 +26,7 @@ void stud_sort()
 		{
 			for(q=p->next;q!=NULL;q=q->next)
 			{
-				if(strcmp(p->name,q->name)>0)
+				if(strcasecmp(p->name,q->name)>0)
 				{
 					temp_roll=p->roll;
 					p->roll=q->roll;
