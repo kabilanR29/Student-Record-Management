@@ -10,7 +10,7 @@ void stud_show()
         printf("\n--------------------------------------------------------------------------------\n");
         while(ptr!=0)
         {
-                printf("%-10d %-20s %.2f\n",ptr->roll, ptr->name, ptr->percentage);
+                printf("            %-10d %-20s %.2f\n",  ptr->roll, ptr->name, ptr->percentage               );
                 ptr=ptr->next;
         }
         printf("\n--------------------------------------------------------------------------------\n");
